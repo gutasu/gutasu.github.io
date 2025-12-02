@@ -1,61 +1,95 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Projecte Guillem Tarradas </title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projectes SMX2C 2025-2026</title>
+    <style>
+        body {
+            background-color: #b30000; /* Fons vermell fosc */
+            color: white;
+        }
+        .card {
+            background: #ffffff;
+            color: #333;
+            border-radius: 15px;
+        }
+        .side-box {
+            background: rgba(255,255,255,0.2);
+            border-radius: 15px;
+        }
+        h1, h2 {
+            color: #ffe6e6;
+        }
+    </style>
+</head>
 
-    <!-- Include Bootstrap HTML, CSS and JS library -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<body>
 
-  </head>
+<div class="container py-5">
+    <h1 class="text-center mb-4">El meu nom és <strong>Guillem Tarradas</strong></h1>
 
-  <body>
-    <br>
-    <div class="container">
-      <h5><span class="badge text-bg-primary">SMX2C</span> <span class="badge text-bg-secondary">2025-2026</span></h5>
-      <h1>Projecte Intermodular</h1>
-      <br>
-      <h3>Taula de projectes</h3>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col" class="text-secondary">Github</th>
-            <th scope="col"></th>
-            <th scope="col" class="text-primary">Projecte</th>
-          </tr>
-          <tr>
-            <th scope="col">Nom</th>
-            <th scope="col">Cognoms</th>
-            <th scope="col" class="text-secondary"><i>Dashboard</i></th>
-            <th scope="col" class="text-secondary"><i>Presentació</i></th>
-            <th scope="col" class="text-primary"><i>Web</i></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Francesc</td>
-            <td>Rocher Muñoz</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/rocher">rocher</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://rocher.github.io">rocher.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="http://lafusta.endinahosting.com">La FUSTA</a></td>
-          </tr>
-          <tr>
-            <td>Guillem</td>
-            <td>Tarradas Surroca</td>
-            <td><a class="link-secondary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://github.com/gutasu">gutasu</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="https://gutasu.github.io">gutasu.github.io</a></td>
-            <td><a class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover"></a></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="row g-4">
+
+        <!-- Columna lateral -->
+        <div class="col-md-4">
+            <div class="p-3 side-box">
+                <h2>Projecte Aleix</h2>
+                <ul>
+                    <li>Descripció</li>
+                    <li>Contingut</li>
+                    <li>Contacte</li>
+                </ul>
+
+                <a href="/cgi-bin/projecte.cgi" class="btn btn-light w-100 mt-3">
+                    Veure versió CGI (C++)
+                </a>
+            </div>
+        </div>
+
+        <!-- Contingut principal -->
+        <div class="col-md-8">
+            
+            <div class="card p-4 mb-4">
+                <h3>Projecte Final de Curs</h3>
+                <p><strong>Alumne:</strong> Guillem Tarradas </p>
+            </div>
+
+            <div class="card p-4 mb-4">
+                <h4>Descripció del Projecte</h4>
+                <p>
+                    Aquesta secció serà la descripció del projecte final de curs, on
+                    s’explicarà en què consisteix i quines competències o coneixements
+                    s’hi han aplicat.
+                </p>
+                <em>(Encara pendent de definir — es completarà quan el projecte estigui decidit.)</em>
+            </div>
+
+            <div class="card p-4 mb-4">
+                <h4>Àrees del Projecte</h4>
+                <h5>🧠 Coneixements</h5>
+                <p>Què s’ha après i com s’aplica al projecte.</p>
+
+                <h5>💻 Tecnologia</h5>
+                <p>Eines, llenguatges i plataformes utilitzades.</p>
+
+                <h5>🚀 Objectius</h5>
+                <p>Objectius a aconseguir amb el projecte final.</p>
+            </div>
+
+            <div class="card p-4">
+                <h4>Contacte</h4>
+                <p>Per a més informació o dubtes, pots contactar-me.</p>
+            </div>
+        </div>
     </div>
 
-    <!-- Include Bootstrap HTML, CSS and JS library -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <footer class="text-center mt-4 text-light">
+        © 2025 Guillem Tarradas  | Projecte Final de Curs |
+    </footer>
+</div>
 
-  </body>
+</body>
 </html>
