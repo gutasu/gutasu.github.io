@@ -5,60 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecte Final de Curs - Guillem Tarradas</title>
     <style>
+        /* Fonts i colors principals */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             background-color: #ffffff; /* Fons blanc predominant */
             color: #333;
+            line-height: 1.6;
         }
+
+        .highlight {
+            color: #e63946; /* Vermell per destacar */
+            font-weight: bold;
+        }
+
+        /* Header */
         header {
             background-color: #1d3557; /* Blau marí */
             color: #fff;
-            padding: 30px 20px;
             text-align: center;
+            padding: 40px 20px;
         }
+
         header h1 {
             margin: 0;
-            font-size: 2em;
+            font-size: 2.2em;
         }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1em;
+        }
+
+        /* Main */
         main {
             max-width: 800px;
             margin: 40px auto;
             padding: 20px;
-            background-color: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
         }
+
+        section {
+            background-color: #f9f9f9;
+            border-left: 6px solid #1d3557;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
         h2 {
             color: #1d3557;
+            margin-top: 0;
         }
+
         a {
             color: #1d3557;
             text-decoration: none;
             font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
         }
-        .highlight {
-            color: #e63946;
-            font-weight: bold;
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            color: #555;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Projecte Final de Curs fet per Guillem Tarradas</h1>
+        <h1>Projecte Final de Curs</h1>
+        <p>Fet per <span class="highlight">Guillem Tarradas</span></p>
     </header>
-    <main>
-        <h2>Navisafe</h2>
-        <p>Navisafe és un sistema de navegació assistida per petites embarcacions, pensat per millorar la seguretat, el control i l’estabilitat de manera econòmica i accessible.</p>
-        <p>Si vols més informació sobre el projecte, entra al següent enllaç:</p>
-        <p><a href="https://navisafe.cat" target="_blank">navisafe.cat</a></p>
 
-        <h2>Sobre mi</h2>
-        <p>Sóc <span class="highlight">Guillem Tarradas</span>, apassionat de la informàtica i actualment estudiant SMX2. M'agrada crear solucions pràctiques, aprendre constantment i col·laborar en projectes innovadors com Navisafe, on combinem software, sensors i interfícies web per fer la navegació més accessible i segura.</p>
+    <main>
+        <section class="project">
+            <h2>Navisafe</h2>
+            <p>Navisafe és un sistema de navegació assistida per petites embarcacions, pensat per millorar la seguretat, el control i l’estabilitat de manera econòmica i accessible.</p>
+            <p>Si vols més informació sobre el projecte, visita:</p>
+            <a href="https://navisafe.cat" target="_blank">navisafe.cat</a>
+        </section>
+
+        <section class="about-me">
+            <h2>Sobre mi</h2>
+            <p>Sóc <span class="highlight">Guillem Tarradas</span>, apassionat de la informàtica i estudiant SMX2. M'agrada crear solucions pràctiques, aprendre constantment i col·laborar en projectes innovadors com Navisafe, on combinem software, sensors i interfícies web per fer la navegació més accessible i segura.</p>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2025 Guillem Tarradas</p>
+    </footer>
 </body>
 </html>
+
 
